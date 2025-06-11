@@ -2592,5 +2592,13 @@
         <F>86</F>
       </Row>
     </GDALRasterAttributeTable>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">-0.011340969242156</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.009808405302465</MDI>
+      <MDI key="STATISTICS_MEAN">9.8230016649752e-07</MDI>
+      <MDI key="STATISTICS_STDDEV">0.0015116894345497</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">44.32</MDI>
+    </Metadata>
   </PAMRasterBand>
 </PAMDataset>

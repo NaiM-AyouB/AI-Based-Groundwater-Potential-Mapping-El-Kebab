@@ -1,0 +1,12 @@
+-Clay_content : min=0 ; max=423
+-Sand_content : min=0 ; max=477
+-Bulk_density : min=0 ; max=165
+-ELkbab_slope : min=0 ; max=67.5
+-ELkbab_Aspect : min=0 ; max=360
+-ELkbab_E_W_Slope : min=-1,4662534 ; max= 2,0615084
+-ELkbab_N_S_Slope : min=-1,1861334 ; maw=1,3962234
+-ELkbab_Profile_Curvature: min=-0,0381423 ; max=0,0383005
+-ELkbab_Tengential_Curvature : min=-0,0381423 ; max=0,0383005
+-ELkbab_dxx : min=-0,1027839 ; max=0,1074838
+-ELkbab_dxy : min=-0,0275861 ; max=0,0377011
+-ELkbab_dyy : min=-0,0696805 ; max=0,0762195

@@ -1,6 +1,6 @@
 # AI-Based Groundwater Potential Mapping – El Kebab
 
-This project applies machine learning techniques and geospatial analysis to assess groundwater potential in **El Kebab**, using a combination of global and local datasets. It is a continuation of the earlier AI Water Management Project, with a more comprehensive inclusion of raster layers and an improved hybrid workflow involving Google Earth Engine and QGIS.
+This project applies machine learning techniques and geospatial analysis to assess groundwater potential in El Kebab, using a combination of global and local datasets. It is a continuation of the earlier AI Water Management Project, with a more comprehensive inclusion of raster layers. While the initial plan considered using Google Earth Engine (GEE), this project will not utilize GEE due to my beginner status with the platform. All data processing will instead be done locally using QGIS and R.
 
 ---
 
@@ -19,8 +19,7 @@ This project applies machine learning techniques and geospatial analysis to asse
 ---
 
 ## 🛠️ Tools & Technologies
-- **QGIS** (terrain analysis, hydrological modeling, styling)
-- **Google Earth Engine (GEE)** (climate and vegetation raster extraction)
+- **QGIS** (terrain analysis, hydrological modeling,climate and vegetation raster extraction, styling)
 - **R** (data processing, machine learning modeling)
 
 ---
@@ -49,19 +48,13 @@ AI_Water_El_Kebab/
 ### Phase 1 – Study Area Definition
 - Obtain and reproject El Kebab boundary
 
-### Phase 2A – GEE Preprocessing
-- Extract:
-  - MODIS NDVI
-  - MODIS LST
-  - CHIRPS Precipitation
-  - MODIS ET
-  - Land Cover (ESA/WorldCover)
-- Export GeoTIFFs clipped to El Kebab
-
-### Phase 2B – QGIS Preprocessing
-- DEM-based terrain analysis:
+### Phase 2 – Raster Preprocessing (in QGIS)
+- Terrain analysis from DEM:
   - Slope, Aspect, Curvature
   - Flow Accumulation & Drainage Network
+- Remote sensing data (NDVI, LST, Precipitation, etc.):
+  - Download manually from MODIS or NASA
+  - Reproject and clip in QGIS
 - Reprojection and clipping of soil and vegetation layers
 
 ### Phase 3 – Raster to Point Conversion
@@ -97,7 +90,7 @@ AI_Water_El_Kebab/
 
 ## 👤 Author
 **Naim Ayoub**  
-Hydraulic Technician & Environmental Engineering Student  
+Hydraulic & Environmental Engineering Technician  
 Morocco
 
 ---
